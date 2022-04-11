@@ -7,16 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79A3AD90-418
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{61B9E98D-1D5B-4C60-8892-19EDFBB2FE1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powers.EzHttpClient", "src\Powers.EzHttpClient\Powers.EzHttpClient.csproj", "{06F076FB-0B2E-442A-9FAB-93B7CB7DF3AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Powers.EzHttpClient", "src\Powers.EzHttpClient\Powers.EzHttpClient.csproj", "{06F076FB-0B2E-442A-9FAB-93B7CB7DF3AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powers.EzHttpClient.Test", "test\Powers.EzHttpClient.Test\Powers.EzHttpClient.Test.csproj", "{7386B357-7CA3-4DC4-963E-CCA179D6078A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Powers.EzHttpClient.Test", "test\Powers.EzHttpClient.Test\Powers.EzHttpClient.Test.csproj", "{7386B357-7CA3-4DC4-963E-CCA179D6078A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powers.EzHttpClient.Test.WebApi", "test\Powers.EzHttpClient.Test.WebApi\Powers.EzHttpClient.Test.WebApi.csproj", "{F51D5810-5076-40E7-87AA-2699F504BAEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Powers.EzHttpClient.Test.WebApi", "test\Powers.EzHttpClient.Test.WebApi\Powers.EzHttpClient.Test.WebApi.csproj", "{F51D5810-5076-40E7-87AA-2699F504BAEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46AD018C-D91D-4477-8A16-A62CEACAE5A9}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzHttpClient.Demo", "src\EzHttpClient.Demo\EzHttpClient.Demo.csproj", "{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{F51D5810-5076-40E7-87AA-2699F504BAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51D5810-5076-40E7-87AA-2699F504BAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51D5810-5076-40E7-87AA-2699F504BAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{06F076FB-0B2E-442A-9FAB-93B7CB7DF3AC} = {79A3AD90-4182-444F-9E3D-1E72FD92A51F}
 		{7386B357-7CA3-4DC4-963E-CCA179D6078A} = {61B9E98D-1D5B-4C60-8892-19EDFBB2FE1F}
 		{F51D5810-5076-40E7-87AA-2699F504BAEB} = {61B9E98D-1D5B-4C60-8892-19EDFBB2FE1F}
+		{B8125CF1-32EE-48DD-8915-EC1A61D2D6DE} = {79A3AD90-4182-444F-9E3D-1E72FD92A51F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A168E67A-CB5C-41DE-AA3E-DBACAC50AB3E}
